@@ -4,11 +4,15 @@ import { blogPage, contactPage, homePage,  postBlog,  viewPage } from "../contro
 export const router=Router()
 
 router.get("/",homePage)
+router.get("/",homePage)
+router.get("/",homePage)
+
+
 
 router.post("/submit",postBlog)
  
 router.get("/blog",blogPage)
-
+ 
 router.get("/views",viewPage)
  
 router.get("/contact",contactPage)
@@ -17,3 +21,4 @@ router.get("/contact",contactPage)
 
 // browser-sync start --proxy "http://localhost:3001" --files "views/*.ejs, public/*.css"
 
+ 
